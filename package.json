@@ -1,0 +1,19 @@
+{
+  "name": "common-utils-helper",
+  "version": "0.1.0",
+  "description": "Common Utils Helper",
+  "main": "index.js",
+  "homepage": "https://github.com/MohMaherId/common-utils-helper",
+  "author": "Mohamed Maher <moh.maher@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohMaherId/common-utils-helper.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohMaherId/common-utils-helper/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
