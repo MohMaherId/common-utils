@@ -1,8 +1,9 @@
 {
   "name": "common-utils-helper",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Common Utils Helper",
-  "main": "index.js",
+  "main": "./lib/index",
+  "types": "./lib/index",
   "homepage": "https://github.com/MohMaherId/common-utils-helper",
   "author": "Mohamed Maher <moh.maher@gmail.com>",
   "repository": {
@@ -13,7 +14,20 @@
   "bugs": {
     "url": "https://github.com/MohMaherId/common-utils-helper/issues"
   },
+  "keywords": [
+    "maher",
+    "common",
+    "helper",
+    "json",
+    "parse",
+    "reviver",
+    "typecript"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.14",
+    "typescript": "^2.3.2"
   }
 }
