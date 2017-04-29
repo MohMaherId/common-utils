@@ -1,6 +1,5 @@
 // @type-check
-var CommonUtilsHelper = require('../lib/index').CommonUtilsHelper;
-
+var CommonUtilsHelper = require('../lib/index');
 var jsonStr = '{"date": "2017-04-01T12:00:00Z"}';
 // Parsing without dateReviver
 var jsonObj = JSON.parse(jsonStr);
